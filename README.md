@@ -26,3 +26,7 @@ You can change check interval in file **github_monitoring.py** at line
 ```python
 scheduler.add_job(job_for_scheduler, "interval", hours=1, args=[config]) # change the interval hours=1 as you like
 ```
+**Script using a sqlite db to keep releases and tags and compare if new apear, make sure what path exist and make it persistent if you using docker**
+```python
+bd_path = "/opt/monitoring/db/github_monitoring.db"  #path to database (make persistent if in docker)
+```
