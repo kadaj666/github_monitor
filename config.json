@@ -1,0 +1,58 @@
+{
+    "releases": [
+        {
+            "organization": "grafana",
+            "repository": "grafana"
+        },
+        {
+            "organization": "prometheus",
+            "repository": "prometheus"
+        },
+        {
+            "organization": "prometheus",
+            "repository": "node_exporter"
+        },
+        {
+            "organization": "weaveworks",
+            "repository": "weave"
+        },
+        {
+            "organization": "clickhouse",
+            "repository": "clickhouse"
+        },
+        {
+            "organization": "hashicorp",
+            "repository": "consul"
+        },
+        {
+            "organization": "hashicorp",
+            "repository": "nomad"
+        },
+        {
+            "organization": "grafana",
+            "repository": "oncall"
+        },
+        {
+            "organization": "grafana",
+            "repository": "loki"
+        },
+        {
+            "organization": "grafana",
+            "repository": "mimir"
+        },
+        {
+            "organization": "grafana",
+            "repository": "tempo"
+        }
+    ],
+    "tags": [
+        {
+            "organization": "apache",
+            "repository": "kafka"
+        },
+        {
+            "organization": "apache",
+            "repository": "zookeeper"
+        }
+    ]
+}
